@@ -1,5 +1,7 @@
 # Directory Organizer
 
+> Note: This Script does not follow the requirements given by the task, but I left it as it is cuz it's cool
+
 ## Overview
 
 This project consists of a Bash script that organizes files into directories based on their file extensions. It includes functions defined in an external script (`Functions_Task_A.sh`) to perform the necessary operations. The main script takes a folder path as an argument, creates directories within that path based on file extensions, sorts files into these directories, and then outputs the directory structure using the `tree` command.
@@ -44,12 +46,12 @@ This project consists of a Bash script that organizes files into directories bas
 
 3. **Make the main script executable**:
    ```bash
-   chmod +x main_script.sh
+   chmod +x Task_A.sh
    ```
 
 4. **Run the main script** with the folder path as an argument:
    ```bash
-   ./main_script.sh /path/to/folder
+   ./Task_A.sh /path/to/folder
    ```
 
 ## Options
@@ -60,7 +62,7 @@ This project consists of a Bash script that organizes files into directories bas
 ## Example
 
 ```bash
-./main_script.sh /home/user/documents
+./Task_A.sh /home/user/documents
 ```
 
 This will organize the files in the `/home/user/documents` directory, create directories as needed, sort the files into these directories, and then display the directory structure.
