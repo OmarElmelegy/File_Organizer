@@ -80,16 +80,4 @@ The script outputs the directory structure of the provided folder path using the
 - The `CreateDirectories` function will create a directory for each unique file extension found in the provided folder path.
 - The `SortIntoDirectories` function will move files to the corresponding directories based on their extensions. Files without extensions and hidden files will be moved to a `Misc` directory.
 
-## License
-
-Include your license information here.
-
-## Contributing
-
-Include contributing guidelines here.
-
-## Contact
-
-Include contact information or ways to reach out for support.
-
 ---
